@@ -1,0 +1,80 @@
+.App {
+  background-color: #20232a;
+  height: 100vh;
+  text-align: center;
+}
+
+.App .toast-css {
+  text-align: left;
+}
+
+.icon-list {
+  font-size: 80px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #e4e4e4;
+  border-radius: 5px;
+  margin-top: 75px;
+}
+
+.lbl-list {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.txtbox-list {
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.icon-add,
+.icon-save {
+  color: #20232a;
+  cursor: pointer;
+  position: absolute;
+  margin: -37px 0px 0 122px;
+}
+
+.list-item .item {
+  background-color: #6e0dd0;
+  max-width: 300px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: 1px solid #9d00ff;
+  border-radius: 5px;
+  margin: 8px auto;
+  text-align: left;
+}
+
+.icon-delete {
+  color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  margin: -38px 0 0 120px;
+  font-size: 22px;
+}
+
+.icon-edit {
+  color: #ffffff;
+  cursor: pointer;
+  position: absolute;
+  margin: -37px 0 0 92px;
+  font-size: 18px;
+}
+
+.icon-edit:hover,
+.icon-delete:hover {
+  color: #20232a;
+}
+
+.icon-save {
+  font-size: 22px;
+  margin: -40px 0px 0 118px;
+}
+
+.icon-save:hover,
+.icon-add:hover {
+  color: #6e0dd0;
+}
